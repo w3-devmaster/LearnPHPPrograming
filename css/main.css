@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 p {
     color: orange;
     /*  สีข้อความ    */
@@ -10,4 +15,49 @@ p {
 
 #limeTxt {
     color: lime;
+}
+
+.mainDiv {
+    border: 2px solid orange;
+    margin: 30px;
+    padding: 15px;
+}
+
+#menu-bar {
+    list-style-type: none;
+}
+
+#menu-bar li {
+    float: left;
+    padding: 10px 20px;
+    color: #FFF;
+    background-color: orange;
+    cursor: pointer;
+    /* transition: all 1s; */
+}
+
+#menu-bar li:hover {
+    color: red;
+}
+
+#menu-bar li a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+#menu-bar li a:hover {
+    text-decoration: underline;
+}
+
+img {
+    display: block;
+    width: 100px;
+    margin: 10px auto;
+    /*
+    text-align:center;
+    */
+}
+
+.clear {
+    clear: both;
 }
